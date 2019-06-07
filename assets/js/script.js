@@ -5,17 +5,18 @@ $(document).ready(function(){
 	}
 	$('#text_container').html(direction_text)
 	$('#begin_btn').off('click').on('click',function(){
+		
 			begin_entered=true
 			$('#begin_page').hide();
-			setTimeout(function(){
-				$('#text_container,#heading_text,#responsive_container,#restart').fadeIn(500);resizeApp();
+			setTimeout(function(){$('#text_container').hide()
+				$('#text_container,#heading_text,#responsive_container,#restart').fadeIn(300);resizeApp();
 				$('.hotspot').attr('aria-hidden','false');
-			},1000);
+			},500);
 			
 			resizeApp();
 			set_tab();
 			if (/MSIE 10/i.test(navigator.userAgent) || /MSIE 9/i.test(navigator.userAgent) || /rv:11.0/i.test(navigator.userAgent) ||/Edge\/\d./i.test(navigator.userAgent)) {
-				$('#main_container').removeAttr('role');
+				$('#main_container').removeAttr('role').attr('aria-hidden','false');;
 			}else{
 				$('#main_container').attr('role','application');
 			}
