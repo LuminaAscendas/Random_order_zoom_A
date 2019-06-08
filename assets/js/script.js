@@ -48,24 +48,25 @@ $(document).ready(function(){
 			{
 				case 1: 
 				{
-					animation(10, -313, '200%', '200%', 'imgDiv')
+					animation(69, -265, '178%', '178%', 'imgDiv')
 					break;
 				}
 				case 2: 
 				{
-					animation(-355, -420, '250%', '250%', 'imgDiv')
+					animation(-155, -320, '195%', '195%', 'imgDiv')
 					break;
 				}
 				case 3: 
 				{
-					animation(-500, -445, '230%', '230%', 'imgDiv')
+					animation(-405, -330, '205%', '205%', 'imgDiv')
 					break;
 				}
 				case 4: 
 				{
-					animation(-430, -695, '220%', '220%', 'imgDiv')
+					animation(-90,-270, '125%', '125%', 'imgDiv')
 					break;
 				}
+				
 		
 			}
 	zoomed_image=true;
@@ -100,7 +101,7 @@ $(document).ready(function(){
 			   left: argLeft,
 			   height: argHeight,
 			   width: argWidth
-		}, 1000,function(){
+		}, 500,function(){
 			//$('#focus_guard_1').focus();
 			//$('.reset-btn').fadeIn();
 			//set_tabindex();
