@@ -8,10 +8,11 @@ $(document).ready(function(){
 		
 			begin_entered=true
 			$('#begin_page').hide();
-			setTimeout(function(){$('#text_container').hide()
-				$('#text_container,#heading_text,#responsive_container,#restart').fadeIn(300);resizeApp();
+			//setTimeout(function(){
+				$('#text_container').hide()
+				$('#text_container,#heading_text,#responsive_container,#restart').fadeIn(500);resizeApp();
 				$('.hotspot').attr('aria-hidden','false');
-			},500);
+			//},500);
 			
 			resizeApp();
 			set_tab();
