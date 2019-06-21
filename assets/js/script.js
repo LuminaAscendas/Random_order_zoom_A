@@ -28,7 +28,7 @@ $(document).ready(function(){
 			//$('#toggle_'+curr_id).hide();
 			$('.hotspot_dummy').hide();
 			$('.label_class').hide();
-			
+			$('#heading_text').css("color","#007098");
 			
 			//$('.dummy_popup').attr('aria-hidden','false')
 			//$('#heading_text').css('visibility','hidden');	\\\\started
@@ -115,7 +115,7 @@ $(document).ready(function(){
   
 });  */
 $('.reset-btn').off('click').on('click',function(e){
-
+	$('#heading_text').css("color","#000");
 	if(e.type=="keyup" && e.keyCode !=13){
 			return  true;
 	}

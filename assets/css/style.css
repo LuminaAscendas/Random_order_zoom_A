@@ -482,7 +482,9 @@ clicked {
  font-family: 'SourceSansPro-Regular';
     font-size: 14px;
     font-weight: normal;
-	
+	margin-top:20px;
+/*     top: 20px;
+    position: relative;	 */
  }
 .reset-btn{
   width:26px;
